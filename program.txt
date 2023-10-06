@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K Y C FORM</title>
+    </head>
+    <body>
+        <div align="center">
+            <h1>APPLICATATION  K Y C FORM</h1>
+            <h2>Personal Details</h2>
+            <form name="order" method="post">
+                <table>
+                    <tbody>
+                        <td>
+                        </tr>
+                            <td><label>UPLOAD PHOTO</label></td>
+                            <input type="file" name="fullname" placeholder="Enter First Name " />
+                            <td>
+                        <tr>
+                            <td><label>FIRST NAME</label></td>
+                            <td>
+                                <input type="text" name="fullname" placeholder="Enter First Name " />
+                                <tr>
+                                    <td><label> MIDDLE NAME</label></td>
+                                    <td>
+                                        <input type="text" name="fullname" placeholder="Enter Middle Name " />
+                                        <tr>
+                                            <td><label>LAST NAME</label></td>
+                                            <td>
+                                                <input type="text" name="fullname" placeholder="Enter Last Name " />
+                            </td>
+                        </tr>
+                        <td><label>GENDER</label></td>
+                            <td>
+                                <input type="radio" name="addresstype" value="MALE" /> MALE
+                                <input type="radio" name="addresstype" value="FEMALE" /> FEMALE
+                                <input type="radio" name="addresstype" value="OTHERS" /> OTHERS
+                            
+                        </tr>
+                        <td><label>EMAIL ID:</label></td>
+                        <td><input type="type" name="contact" placeholder="ENTER PHONE NUMBER"/></td>
+                        <td>
+                        </tr>
+                            <td><label>NUMBER</label></td>
+                            <td>
+                                <input type="radio" name="addresstype" value="MOBILE NUMBER" /> MOBILE NUMBER
+                                <input type="radio" name="addresstype" value="TELEPHONE NUMBER" /> TELEPHONE NUMBER
+                        <td>
+                        </tr>
+                            <td><label>MOBILE NUMBER</label></td>
+                            <td><input type="type" name="contact" placeholder="Enter NUMBERE"/></td>
+                        <tr>
+                            <td><label>DOB</label></td>
+                            <td><input type="datetime-local" name="contact" placeholder="Enter Birth Date"/></td>
+                        </tr>
+                        <tr>
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <h2><label>Parents Details:</label></h2>
+                                    <table>
+                                        <tbody>
+                                    <td><lable>FATHER NAME :</lable></td>
+                            <td><input type="Name" name="mail" placeholder="Enter Father Name"/></td>
+                        </tr>
+                        
+                            <td><label> FATHER OCCUPATION:</label></td>
+                                            <td>
+                                                <input type="text" name="fullname" placeholder="Enter OCCUPATION " />
+                                             <td>
+                                        
+                                             <td><label>ANNUAL INCOME:</label></td>
+                                             <td>
+                                            <input type="text" name="fullname" placeholder="EnterINCOME" />
+                                             <td>
+                                           </tr>
+                                                    <table>
+                                                  <tbody>
+                                                    <td><label>MOTHER NAME</label></td>
+                                                    <td>
+                                                     <input type="text" name="fullname" placeholder="Enter Mother Name " />
+                        </tr>
+                    
+                            <td><label> MOTHER OCCUPATION:</label></td>
+                            <td>
+                                <input type="text" name="fullname" placeholder="Enter OCCUPATION " />
+                                <td>
+                                
+                                    <td><label>ANNUAL INCOME:</label></td>
+                                    <td>
+                                        <input type="text" name="fullname" placeholder="EnterINCOME" />
+                                        <td>
+                                        </tr>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <h2 colspan="2">Proof Of Address:</h2>
+                                    </tr>
+                                    <tr>
+                                        <table>
+                                            <tbody>
+                                        <td><label>PERSON ADDRESS:</label></td>
+                                        <td>
+                                        
+                                            <input type="text" name="fullname" placeholder="Enter Full Address " />
+                                            <td>
+                                            </tr>
+                                            <td><label>DISTRICT:</label></td>
+                                            <td>
+                                                <input type="text" name="fullname" placeholder="Enter District " />
+                                                <td>
+                                                    </tr>
+                                            
+                                            <td><lable>MANDAL:</lable></td> 
+                                            <td>
+                                                
+                                            <input type="text" name="fullname" placeholder="Enter Mandal " />
+                                            <td>
+                                                </tr>
+                            <td><label>DOOR.NO:</label></td>
+                            <td>
+                                <input type="number" name="door" placeholder="Door number" />
+                            <td>
+                            </tr>                   
+                            <td><label>STREET:</label></td>
+                            <td><input type="type" placeholder="Street name" name="street"/></td>
+                        <td>
+                        </td>
+                        <td>
+                        </tr>
+    <td><label>PIN CODE:</label></td>
+    <td>
+        <input type="number" name="door" placeholder="enter your pincode" />
+                        </tr>
+                        <tr>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td><label>UPLOAD PROOF:</label></td>
+                                        <td>
+                                            <input type="file" name="door" placeholder="Door number" />
+                                        </td>
+                                        </tr>
+                          
+                        <tr align="center">
+                            <td>
+                                <input type="submit" value="submit" />
+                                <!-- <input type="button" value="Place order" /> -->
+                                <!-- <button type="reset">
+                                    Place order
+                                </button> -->
+                            </td>
+                            <td>
+                                <input type="reset" value="cancel" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea name="description"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </body>
+    </html>
+    </body>
+    </html>	
